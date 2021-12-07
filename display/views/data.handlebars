@@ -1,0 +1,17 @@
+<h1>Users</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email</th>
+    </tr>
+{{#each payload}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{email}}</td>
+    </tr>
+{{/each}}
+</table>
